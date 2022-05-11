@@ -16,7 +16,7 @@
   "author": "Padalka Maxim <sheihmaks@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sheihmaks/parcel-project-template/issues"
+    "url": "https://github.com/sheihmaks/goit-js-hw-09/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
