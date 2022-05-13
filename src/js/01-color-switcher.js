@@ -5,8 +5,7 @@ const refs = {
 };
 
 let changeColorAtInterval = null;
-
-refs.btnStop.setAttribute('disabled', true);
+npmrefs.btnStop.setAttribute('disabled', true);
 
 const onChangeColorAtInterval = () => {
   refs.body.style.backgroundColor = getRandomHexColor();
@@ -30,3 +29,4 @@ function getRandomHexColor() {
 
 refs.btnStart.addEventListener('click', onClickBtnStart);
 refs.btnStop.addEventListener('click', onClickBtnStop);
+console.log('Hello');
