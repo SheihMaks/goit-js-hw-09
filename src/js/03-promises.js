@@ -5,9 +5,9 @@ function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
     const shouldResolve = Math.random() > 0.3;
     if (shouldResolve) {
-      resolve(console.log(`✅ Fulfilled promise ${position} in ${delay}ms`));
+      resolve(`✅ Fulfilled promise ${position} in ${delay}ms`);
     } else {
-      reject(console.log(`❌ Rejected promise ${position} in ${delay}ms`));
+      reject(`❌ Rejected promise ${position} in ${delay}ms`);
     }
   });
 }

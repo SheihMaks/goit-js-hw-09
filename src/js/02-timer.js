@@ -53,6 +53,7 @@ function onClickStartButton(date) {
     let ms = date - Date.now();
     if (ms < 0) {
       clearInterval(timer);
+      refs.input.disabled = false;
       return;
     }
     let time = convertMs(ms);
@@ -60,6 +61,7 @@ function onClickStartButton(date) {
   }, 1000);
   if (timer) {
     refs.startButton.disabled = true;
+    refs.input.setAttribute('disabled', true);
   }
 }
 
